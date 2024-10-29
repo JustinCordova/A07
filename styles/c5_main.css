@@ -48,11 +48,16 @@ main {
 }
 /* the h1 styles for exercise 5-1 */
 main h1 {
-	font-size: 150%;
-	padding: .3em 0;
-    border-top: 3px solid #931420;
-    border-bottom: 3px solid #931420;
+    font-size: 150%;
+    border: 3px double #800000;
+    margin-bottom: .75em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+    padding: .5em;
+    background-color: white;
+    text-align: center;
 }
+
 
 /* the h1 styles for exercise 5-2
 main h1 {
